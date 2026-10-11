@@ -1,0 +1,24 @@
+========================================
+Linux Security Log Monitoring Report
+Generated: Mon Oct 12 04:10:14 AM IST 2026
+Period: 10 minutes ago
+========================================
+
+----- Failed SSH Authentication Events -----
+Oct 12 04:08:50 bharath-VirtualBox sshd-session[16353]: Invalid user testuser from 127.0.0.1 port 38528
+Oct 12 04:08:52 bharath-VirtualBox sshd-session[16353]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Oct 12 04:08:55 bharath-VirtualBox sshd-session[16353]: Failed password for invalid user testuser from 127.0.0.1 port 38528 ssh2
+Oct 12 04:09:01 bharath-VirtualBox sshd-session[16353]: Failed password for invalid user testuser from 127.0.0.1 port 38528 ssh2
+Oct 12 04:09:06 bharath-VirtualBox sshd-session[16353]: Connection closed by invalid user testuser 127.0.0.1 port 38528 [preauth]
+Oct 12 04:09:06 bharath-VirtualBox sshd-session[16353]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+
+----- Failed Password Attempts by Source IP -----
+      2 127.0.0.1
+
+----- Invalid User Attempts -----
+Oct 12 04:08:50 bharath-VirtualBox sshd-session[16353]: Invalid user testuser from 127.0.0.1 port 38528
+
+----- Recent SSH Service Errors -----
+-- No entries --
+
+----- Report Complete -----
